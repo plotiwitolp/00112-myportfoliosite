@@ -16,54 +16,67 @@
     <!-- 1-ый экран - top-banner -->
     <div class="screen__item top-block">
         <header>
-            <div class="popup-menu">
-                <div class="popup-menu__burger">
+            <div class="header-wrap">
+                <div class="menu-burger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <div class="popup-menu__nav">
-                    <ul class="popup-menu__ul">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Рассчитать стоимость сайта</a></li>
-                        <li><a href="#">Подать заявку</a></li>
-                        <li><a href="#">О себе</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                    <div class="popup-menu__closer">
-                        <span></span>
-                        <span></span>
+                <div class="popup-menu">
+                    <div class="popup-menu__nav">
+                        <ul class="popup-menu__ul">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Рассчитать стоимость сайта</a></li>
+                            <li><a href="#">Подать заявку</a></li>
+                            <li><a href="#">О себе</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="popup-menu__closer">
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="regular-menu">
-                <nav>
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Рассчитать стоимость сайта</a></li>
-                        <li><a href="#">Подать заявку</a></li>
-                        <li><a href="#">О себе</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
+                <div class="regular-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Рассчитать стоимость сайта</a></li>
+                            <li><a href="#">Подать заявку</a></li>
+                            <li><a href="#">О себе</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <div class="top-banner">
             <div class="top-banner__text">
                 <span class="top-banner__hello">
-                    Приветствую! Меня зовут Иван.
+                    Приветствую! <br> Меня зовут Иван.
                 </span>
-                <span class="top-banner__desc1">
-                    Я - частный вебмастер.
-                </span>
-                <span class="top-banner__desc2">
-                    Создаю уникальные эффекные сайты под заказ.
-                </span>
+                <div class="top-banner__desc1_2">
+                    <span class="top-banner__desc1">
+                        Я - частный вебмастер.
+                    </span>
+                    <span class="top-banner__desc2">
+                        Создаю уникальные эффекные сайты под заказ.
+                    </span>
+                </div>
+            </div>
+            <div class="top-banner__img-bg">
+                <picture>
+                    <source srcset="./assets/images/zakazat-sajt.webp 1x">
+                    <img src="./assets/images/zakazat-sajt.png">
+                </picture>
             </div>
             <div class="top-banner__img">
-                <img src="./assets/images/img-03.png" alt="top-banner">
+                <picture>
+                    <source srcset="./assets/images/img-03.webp 1x">
+                    <img src="./assets/images/img-03.png" alt="top-banner">
+                </picture>
             </div>
             <div class="top-banner__line"></div>
         </div>
@@ -77,8 +90,21 @@
             <div class="container-wrapper">
                 <div class="slider-portfolio">
                     <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
+                        <picture>
+                            <source srcset="./assets/images/wellore.webp 1x">
+                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
+                        </picture>
+                        <picture>
+                            <source srcset="./assets/images/wellore.webp 1x">
+                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
+                        </picture>
+                        <span class="portfolio__item-btn">подробнее</span>
+                    </div>
+                    <!-- <div class="slider-portfolio__item">
+                        <picture>
+                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
+                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
+                        </picture>
                         <span class="portfolio__item-btn">подробнее</span>
                     </div>
                     <div class="slider-portfolio__item">
@@ -105,12 +131,7 @@
                         <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
                         <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
                         <span class="portfolio__item-btn">подробнее</span>
-                    </div>
-                    <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -694,13 +715,13 @@
                         </div>
                         <div class="contacts__item">
                             <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
+                                <img src="./assets/images/contacts/kwork.svg" alt="">
                             </div>
                             <div class="contacts__item-text">Kwork</div>
                         </div>
                         <div class="contacts__item">
                             <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
+                                <img src="./assets/images/contacts/free-icon-github-536452.svg" alt="">
                             </div>
                             <div class="contacts__item-text">Github</div>
                         </div>
@@ -739,10 +760,23 @@
     <!-- Footer -->
     <footer>
         <div class="footer-block">
-
+            <div class="regular-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Портфолио</a></li>
+                        <li><a href="#">Рассчитать стоимость сайта</a></li>
+                        <li><a href="#">Подать заявку</a></li>
+                        <li><a href="#">О себе</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">
+                ivanplotnikov.pro © All rights reserved. 2023
+            </div>
         </div>
     </footer>
-
 
     <script src="./assets/scripts/jquery-3.6.0.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
