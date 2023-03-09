@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/fonts/Montserrat/stylesheet.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/libs/animatecss/animate.min.css">
 </head>
 
 <body>
@@ -54,10 +55,10 @@
         </header>
         <div class="top-banner">
             <div class="top-banner__text">
-                <span class="top-banner__hello">
+                <span class="top-banner__hello animate__animated animate__fadeInLeft">
                     Приветствую! <br> Меня зовут Иван.
                 </span>
-                <div class="top-banner__desc1_2">
+                <div class="top-banner__desc1_2 animate__animated animate__fadeInRight">
                     <span class="top-banner__desc1">
                         Я - частный вебмастер.
                     </span>
@@ -78,26 +79,32 @@
                     <img src="./assets/images/img-03.png" alt="top-banner">
                 </picture>
             </div>
-            <div class="top-banner__line"></div>
+            <div class="top-banner__line animate__animated animate__bounce animate__delay-1s animate__repeat-2"></div>
         </div>
     </div>
 
     <!-- Мое портфолио -->
     <div class="screen__item portfolio-block">
-        <h2>Мое портфолио</h2>
-
+        <div class="h2-wrapper">
+            <h2>Мое портфолио</h2>
+        </div>
         <div class="container">
             <div class="container-wrapper">
                 <div class="slider-portfolio">
                     <div class="slider-portfolio__item">
-                        <picture>
-                            <source srcset="./assets/images/wellore.webp 1x">
-                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        </picture>
-                        <picture>
-                            <source srcset="./assets/images/wellore.webp 1x">
-                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        </picture>
+                        <div class="portfolio__item-bg">
+                            <picture>
+                                <source srcset="./assets/images/wellore.webp 1x">
+                                <img src="./assets/images/wellore.png" alt="">
+                            </picture>
+                        </div>
+
+                        <div class="portfolio__item-front">
+                            <picture>
+                                <source srcset="./assets/images/wellore.webp 1x">
+                                <img src="./assets/images/wellore.png" alt="">
+                            </picture>
+                        </div>
                         <span class="portfolio__item-btn">подробнее</span>
                     </div>
                     <!-- <div class="slider-portfolio__item">
@@ -139,7 +146,9 @@
 
     <!-- Подать заявку -->
     <div class="screen__item timer-block">
-        <h2>Подать заявку</h2>
+        <div class="h2-wrapper">
+            <h2>Подать заявку</h2>
+        </div>
         <div class="container">
             <div class="container-wrapper">
                 <div class="timer">
@@ -204,7 +213,9 @@
 
     <!-- Расчет стоимости сайта -->
     <div class="screen__item calc-quiz-block">
-        <h2>Расчет стоимости сайта</h2>
+        <div class="h2-wrapper">
+            <h2>Расчет стоимости сайта</h2>
+        </div>
         <div class="container">
             <div class="container-wrapper">
                 <div class="calc-quiz">
@@ -369,7 +380,9 @@
 
     <!-- 5 шагов при разработке сайта.  -->
     <div class="screen__item steps-block">
-        <h2>5 шагов при разработке сайта.</h2>
+        <div class="h2-wrapper">
+            <h2>5 шагов при разработке сайта.</h2>
+        </div>
         <div class="container">
             <div class="steps">
                 <div class="steps-points">
@@ -418,7 +431,9 @@
 
     <!-- Преимущества частного вебмастера  -->
     <div class="screen__item advantages-block">
-        <h2>Преимущества частного вебмастера</h2>
+        <div class="h2-wrapper">
+            <h2>Преимущества частного вебмастера</h2>
+        </div>
         <div class="container">
             <div class="advantages">
                 <div class="advantages__item">
@@ -459,7 +474,9 @@
 
     <!-- Отзывы  -->
     <div class="screen__item reviews-block">
-        <h2>Отзывы</h2>
+        <div class="h2-wrapper">
+            <h2>Отзывы</h2>
+        </div>
         <div class="container">
             <div class="reviews-slider">
                 <div class="reviews-slider__item">
@@ -520,7 +537,9 @@
 
     <!-- Мои технологии  -->
     <div class="screen__item technology-block">
-        <h2>Мои технологии</h2>
+        <div class="h2-wrapper">
+            <h2>Мои технологии</h2>
+        </div>
         <div class="container">
             <div class="technology">
                 <div class="technology-slider">
@@ -583,7 +602,9 @@
 
     <!-- Часто Задаваемые Вопросы  -->
     <div class="screen__item faq-block">
-        <h2>Часто Задаваемые Вопросы</h2>
+        <div class="h2-wrapper">
+            <h2>Часто Задаваемые Вопросы</h2>
+        </div>
         <div class="container">
             <div class="container-wrapper">
                 <div class="faq">
@@ -675,7 +696,9 @@
 
     <!-- Контакты  -->
     <div class="screen__item contacts-block">
-        <h2>Контакты</h2>
+        <div class="h2-wrapper">
+            <h2>Контакты</h2>
+        </div>
         <div class="container">
             <div class="container-wrapper">
                 <div class="contacts">
@@ -780,6 +803,38 @@
 
     <script src="./assets/scripts/jquery-3.6.0.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/libs/wow/wow.min.js"></script>
 </body>
 
 </html>
+
+<?php
+$args = array(
+    'post_type'      => 'product',
+    'posts_per_page' => 10,
+    'orderby'        => 'date',
+    'order'          => 'DESC',
+    'meta_query'     => array(
+        array(
+            'key'     => '_stock_status',
+            'value'   => 'instock',
+            'compare' => '=',
+        ),
+    ),
+);
+$new_products = new WP_Query($args);
+?>
+<?php if ($new_products->have_posts()) : ?>
+    <ul class="slider-newproducts">
+        <?php while ($new_products->have_posts()) : $new_products->the_post(); ?>
+            <li class="slider-newproducts__item">
+                <a href="<?php the_permalink(); ?>">
+                    <div><?php echo woocommerce_get_product_thumbnail(); ?></div>
+                    <?php the_title(); ?>
+                </a>
+                <?php woocommerce_template_loop_add_to_cart(); ?>
+            </li>
+        <?php endwhile; ?>
+    </ul>
+<?php endif; ?>
+<?php wp_reset_postdata(); ?>
