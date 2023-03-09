@@ -241,3 +241,120 @@ header {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+.top-banner__line {
+  width: 3px;
+  background-color: #fff;
+  height: 86px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 160px;
+  left: calc(50% - 2px);
+}
+
+.screen__item.portfolio-block h2:nth-child(odd) {
+  background: #131313;
+  color: #54d900;
+}
+
+.h2-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.screen__item.portfolio-block h2 {
+  padding-top: 57px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1800px;
+}
+
+.container {
+  height: calc(100% - 110px);
+}
+
+.container-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.slider-portfolio {
+  height: 590px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider-portfolio__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 820px;
+  height: 590px;
+}
+.slider-portfolio__item picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  height: 100%;
+}
+
+.portfolio__item-bg {
+  width: 820px;
+  height: 590px;
+  overflow: hidden;
+  position: absolute;
+  -webkit-filter: blur(4.5px);
+          filter: blur(4.5px);
+  -webkit-box-shadow: 0 0 30px #000;
+          box-shadow: 0 0 30px #000;
+  border-radius: 10px;
+}
+
+.portfolio__item-front {
+  position: absolute;
+  left: 100px;
+  top: 73px;
+  width: 617px;
+  height: 443px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 30px #000;
+          box-shadow: 0 0 30px #000;
+  border-radius: 10px;
+}

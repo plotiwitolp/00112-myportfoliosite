@@ -807,34 +807,3 @@
 </body>
 
 </html>
-
-<?php
-$args = array(
-    'post_type'      => 'product',
-    'posts_per_page' => 10,
-    'orderby'        => 'date',
-    'order'          => 'DESC',
-    'meta_query'     => array(
-        array(
-            'key'     => '_stock_status',
-            'value'   => 'instock',
-            'compare' => '=',
-        ),
-    ),
-);
-$new_products = new WP_Query($args);
-?>
-<?php if ($new_products->have_posts()) : ?>
-    <ul class="slider-newproducts">
-        <?php while ($new_products->have_posts()) : $new_products->the_post(); ?>
-            <li class="slider-newproducts__item">
-                <a href="<?php the_permalink(); ?>">
-                    <div><?php echo woocommerce_get_product_thumbnail(); ?></div>
-                    <?php the_title(); ?>
-                </a>
-                <?php woocommerce_template_loop_add_to_cart(); ?>
-            </li>
-        <?php endwhile; ?>
-    </ul>
-<?php endif; ?>
-<?php wp_reset_postdata(); ?>
