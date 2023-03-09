@@ -66,13 +66,13 @@
                     </span>
                 </div>
             </div>
-            <div class="top-banner__img-bg">
+            <div class="top-banner__img-bg parallax" data-offset="30">
                 <picture>
                     <source srcset="./assets/images/zakazat-sajt.webp 1x">
                     <img src="./assets/images/zakazat-sajt.png">
                 </picture>
             </div>
-            <div class="top-banner__img">
+            <div class="top-banner__img parallax" data-offset="60">
                 <picture>
                     <source srcset="./assets/images/img-03.webp 1x">
                     <img src="./assets/images/img-03.png" alt="top-banner">
