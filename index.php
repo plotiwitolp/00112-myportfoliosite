@@ -8,6 +8,7 @@
     <title>Частный вебмастер Иван Плотников | разработка сайтов под заказ</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/fonts/Montserrat/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/libs/animatecss/animate.min.css">
 </head>
@@ -15,7 +16,7 @@
 <body>
 
     <!-- 1-ый экран - top-banner -->
-    <div class="screen__item top-block">
+    <div class="screen__item top-block" id="top">
         <header>
             <div class="header-wrap">
                 <div class="menu-burger">
@@ -42,12 +43,12 @@
                 <div class="regular-menu">
                     <nav>
                         <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Портфолио</a></li>
-                            <li><a href="#">Рассчитать стоимость сайта</a></li>
-                            <li><a href="#">Подать заявку</a></li>
+                            <li><a href="#top">Главная</a></li>
+                            <li><a href="#portfolio">Портфолио</a></li>
+                            <li><a href="#calc-quiz">Рассчитать стоимость сайта</a></li>
+                            <li><a href="#timer">Подать заявку</a></li>
                             <li><a href="#">О себе</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -84,68 +85,147 @@
     </div>
 
     <!-- Мое портфолио -->
-    <div class="screen__item portfolio-block">
+    <div class="screen__item portfolio-block" id="portfolio">
         <div class="h2-wrapper">
             <h2>Мое портфолио</h2>
         </div>
         <div class="container">
             <div class="container-wrapper">
-                <div class="slider-portfolio">
-                    <div class="slider-portfolio__item">
-                        <div class="portfolio__item-bg">
-                            <picture>
-                                <source srcset="./assets/images/wellore.webp 1x">
-                                <img src="./assets/images/wellore.png" alt="">
-                            </picture>
-                        </div>
+                <!-- Slider main container -->
+                <div class="slider-portfolio swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="slider-portfolio-wrapper swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="slider-portfolio__item swiper-slide">
+                            <div class="slider-portfolio__item-wrapper">
 
-                        <div class="portfolio__item-front">
-                            <picture>
-                                <source srcset="./assets/images/wellore.webp 1x">
-                                <img src="./assets/images/wellore.png" alt="">
-                            </picture>
+                                <div class="portfolio__item-bg">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="portfolio__item-front">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+
+                                <span class="portfolio__item-btn">подробнее</span>
+                            </div>
                         </div>
-                        <span class="portfolio__item-btn">подробнее</span>
+                        <div class="slider-portfolio__item swiper-slide">
+                            <div class="slider-portfolio__item-wrapper">
+
+                                <div class="portfolio__item-bg">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="portfolio__item-front">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+
+                                <span class="portfolio__item-btn">подробнее</span>
+                            </div>
+                        </div>
+                        <div class="slider-portfolio__item swiper-slide">
+                            <div class="slider-portfolio__item-wrapper">
+
+                                <div class="portfolio__item-bg">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="portfolio__item-front">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+
+                                <span class="portfolio__item-btn">подробнее</span>
+                            </div>
+                        </div>
+                        <div class="slider-portfolio__item swiper-slide">
+                            <div class="slider-portfolio__item-wrapper">
+
+                                <div class="portfolio__item-bg">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="portfolio__item-front">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+
+                                <span class="portfolio__item-btn">подробнее</span>
+                            </div>
+                        </div>
+                        <div class="slider-portfolio__item swiper-slide">
+                            <div class="slider-portfolio__item-wrapper">
+
+                                <div class="portfolio__item-bg">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="portfolio__item-front">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+
+                                <span class="portfolio__item-btn">подробнее</span>
+                            </div>
+                        </div>
+                        <div class="slider-portfolio__item swiper-slide">
+                            <div class="slider-portfolio__item-wrapper">
+
+                                <div class="portfolio__item-bg">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+                                <div class="portfolio__item-front">
+                                    <picture>
+                                        <source srcset="./assets/images/wellore.webp 1x">
+                                        <img src="./assets/images/wellore.png" alt="">
+                                    </picture>
+                                </div>
+
+                                <span class="portfolio__item-btn">подробнее</span>
+                            </div>
+                        </div>
                     </div>
-                    <!-- <div class="slider-portfolio__item">
-                        <picture>
-                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                            <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        </picture>
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div>
-                    <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div>
-                    <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div>
-                    <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div>
-                    <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div>
-                    <div class="slider-portfolio__item">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-bg">
-                        <img src="./assets/images/wellore.png" alt="" class="portfolio__item-front">
-                        <span class="portfolio__item-btn">подробнее</span>
-                    </div> -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <!-- <div class="btns"> -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- </div> -->
+
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Подать заявку -->
-    <div class="screen__item timer-block">
+    <div class="screen__item timer-block" id="timer">
         <div class="h2-wrapper">
             <h2>Подать заявку</h2>
         </div>
@@ -212,7 +292,7 @@
     </div>
 
     <!-- Расчет стоимости сайта -->
-    <div class="screen__item calc-quiz-block">
+    <div class="screen__item calc-quiz-block" id="calc-quiz">
         <div class="h2-wrapper">
             <h2>Расчет стоимости сайта</h2>
         </div>
@@ -379,7 +459,7 @@
     </div>
 
     <!-- 5 шагов при разработке сайта.  -->
-    <div class="screen__item steps-block">
+    <div class="screen__item steps-block" id="steps">
         <div class="h2-wrapper">
             <h2>5 шагов при разработке сайта.</h2>
         </div>
@@ -430,7 +510,7 @@
     </div>
 
     <!-- Преимущества частного вебмастера  -->
-    <div class="screen__item advantages-block">
+    <div class="screen__item advantages-block" id="advantages">
         <div class="h2-wrapper">
             <h2>Преимущества частного вебмастера</h2>
         </div>
@@ -473,7 +553,7 @@
     </div>
 
     <!-- Отзывы  -->
-    <div class="screen__item reviews-block">
+    <div class="screen__item reviews-block" id="reviews">
         <div class="h2-wrapper">
             <h2>Отзывы</h2>
         </div>
@@ -536,7 +616,7 @@
     </div>
 
     <!-- Мои технологии  -->
-    <div class="screen__item technology-block">
+    <div class="screen__item technology-block" id="technology">
         <div class="h2-wrapper">
             <h2>Мои технологии</h2>
         </div>
@@ -601,7 +681,7 @@
     </div>
 
     <!-- Часто Задаваемые Вопросы  -->
-    <div class="screen__item faq-block">
+    <div class="screen__item faq-block" id="faq">
         <div class="h2-wrapper">
             <h2>Часто Задаваемые Вопросы</h2>
         </div>
@@ -695,7 +775,7 @@
     </div>
 
     <!-- Контакты  -->
-    <div class="screen__item contacts-block">
+    <div class="screen__item contacts-block" id="contacts">
         <div class="h2-wrapper">
             <h2>Контакты</h2>
         </div>
@@ -778,32 +858,65 @@
                 </div>
             </div>
         </div>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-block">
+                <div class="regular-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Рассчитать стоимость сайта</a></li>
+                            <li><a href="#">Подать заявку</a></li>
+                            <li><a href="#">О себе</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="copyright">
+                    ivanplotnikov.pro © All rights reserved. 2023
+                </div>
+            </div>
+        </footer>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-block">
-            <div class="regular-menu">
-                <nav>
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Рассчитать стоимость сайта</a></li>
-                        <li><a href="#">Подать заявку</a></li>
-                        <li><a href="#">О себе</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="copyright">
-                ivanplotnikov.pro © All rights reserved. 2023
-            </div>
-        </div>
-    </footer>
+
 
     <script src="./assets/scripts/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
     <script src="./assets/libs/wow/wow.min.js"></script>
+
+    <script>
+        // start
+        new Swiper('.slider-portfolio', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            effect: 'coverflow',
+            loop: true,
+            // freeMode: true,
+            centeredSlides: true,
+            slidesPerView: 3,
+            initialSlide: 2,
+            lazyLoading: true,
+            lazyLoadingInPrevNext: true,
+            speed: 700,
+            // additionalSlide: 2,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 200,
+                // modifier: 3,
+                slideShadows: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-prev',
+                prevEl: '.swiper-button-next',
+            },
+            grabCursor: true,
+        });
+        // end
+    </script>
 </body>
 
 </html>
