@@ -100,114 +100,126 @@
                             <div class="slider-portfolio__item-wrapper">
 
                                 <div class="portfolio__item-bg">
-                                    <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
-                                    </picture>
+                                    <div class="portfolio__item-bg-wrapper">
+                                        <picture>
+                                            <!-- <source srcset="./assets/images/wellore.webp 1x"> -->
+                                            <img src="./assets/images/projects/00086-markup-Atlant-Gaz-1 1.png" alt="">
+                                        </picture>
+                                    </div>
                                 </div>
                                 <div class="portfolio__item-front">
                                     <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
+                                        <!-- <source srcset="./assets/images/wellore.webp 1x"> -->
+                                        <img src="./assets/images/projects/00086-markup-Atlant-Gaz-1 1.png" alt="">
                                     </picture>
+                                    <span class="portfolio__item-btn">подробнее</span>
                                 </div>
 
-                                <span class="portfolio__item-btn">подробнее</span>
                             </div>
                         </div>
                         <div class="slider-portfolio__item swiper-slide">
                             <div class="slider-portfolio__item-wrapper">
 
                                 <div class="portfolio__item-bg">
-                                    <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
-                                    </picture>
+                                    <div class="portfolio__item-bg-wrapper">
+                                        <picture>
+                                            <source srcset="./assets/images/wellore.webp 1x">
+                                            <img src="./assets/images/wellore.png" alt="">
+                                        </picture>
+                                    </div>
                                 </div>
                                 <div class="portfolio__item-front">
                                     <picture>
                                         <source srcset="./assets/images/wellore.webp 1x">
                                         <img src="./assets/images/wellore.png" alt="">
                                     </picture>
+                                    <span class="portfolio__item-btn">подробнее</span>
                                 </div>
 
-                                <span class="portfolio__item-btn">подробнее</span>
                             </div>
                         </div>
                         <div class="slider-portfolio__item swiper-slide">
                             <div class="slider-portfolio__item-wrapper">
 
                                 <div class="portfolio__item-bg">
-                                    <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
-                                    </picture>
+                                    <div class="portfolio__item-bg-wrapper">
+                                        <picture>
+                                            <source srcset="./assets/images/wellore.webp 1x">
+                                            <img src="./assets/images/wellore.png" alt="">
+                                        </picture>
+                                    </div>
                                 </div>
                                 <div class="portfolio__item-front">
                                     <picture>
                                         <source srcset="./assets/images/wellore.webp 1x">
                                         <img src="./assets/images/wellore.png" alt="">
                                     </picture>
+                                    <span class="portfolio__item-btn">подробнее</span>
                                 </div>
 
-                                <span class="portfolio__item-btn">подробнее</span>
                             </div>
                         </div>
                         <div class="slider-portfolio__item swiper-slide">
                             <div class="slider-portfolio__item-wrapper">
 
                                 <div class="portfolio__item-bg">
-                                    <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
-                                    </picture>
+                                    <div class="portfolio__item-bg-wrapper">
+                                        <picture>
+                                            <source srcset="./assets/images/wellore.webp 1x">
+                                            <img src="./assets/images/wellore.png" alt="">
+                                        </picture>
+                                    </div>
                                 </div>
                                 <div class="portfolio__item-front">
                                     <picture>
                                         <source srcset="./assets/images/wellore.webp 1x">
                                         <img src="./assets/images/wellore.png" alt="">
                                     </picture>
+                                    <span class="portfolio__item-btn">подробнее</span>
                                 </div>
 
-                                <span class="portfolio__item-btn">подробнее</span>
                             </div>
                         </div>
                         <div class="slider-portfolio__item swiper-slide">
                             <div class="slider-portfolio__item-wrapper">
 
                                 <div class="portfolio__item-bg">
-                                    <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
-                                    </picture>
+                                    <div class="portfolio__item-bg-wrapper">
+                                        <picture>
+                                            <source srcset="./assets/images/wellore.webp 1x">
+                                            <img src="./assets/images/wellore.png" alt="">
+                                        </picture>
+                                    </div>
                                 </div>
                                 <div class="portfolio__item-front">
                                     <picture>
                                         <source srcset="./assets/images/wellore.webp 1x">
                                         <img src="./assets/images/wellore.png" alt="">
                                     </picture>
+                                    <span class="portfolio__item-btn">подробнее</span>
                                 </div>
 
-                                <span class="portfolio__item-btn">подробнее</span>
                             </div>
                         </div>
                         <div class="slider-portfolio__item swiper-slide">
                             <div class="slider-portfolio__item-wrapper">
 
                                 <div class="portfolio__item-bg">
-                                    <picture>
-                                        <source srcset="./assets/images/wellore.webp 1x">
-                                        <img src="./assets/images/wellore.png" alt="">
-                                    </picture>
+                                    <div class="portfolio__item-bg-wrapper">
+                                        <picture>
+                                            <source srcset="./assets/images/wellore.webp 1x">
+                                            <img src="./assets/images/wellore.png" alt="">
+                                        </picture>
+                                    </div>
                                 </div>
                                 <div class="portfolio__item-front">
                                     <picture>
                                         <source srcset="./assets/images/wellore.webp 1x">
                                         <img src="./assets/images/wellore.png" alt="">
                                     </picture>
+                                    <span class="portfolio__item-btn">подробнее</span>
                                 </div>
 
-                                <span class="portfolio__item-btn">подробнее</span>
                             </div>
                         </div>
                     </div>
@@ -231,61 +243,63 @@
         </div>
         <div class="container">
             <div class="container-wrapper">
-                <div class="timer">
-                    <div class="timer-top">
-                        До окончания акции осталось:
-                    </div>
-                    <div class="timer-body">
-                        <div class="timer-body-sector">
-                            <div class="timer-body-sector__item">
-                                <span class="timer-body__day timer-body__count">3</span>
+                <div class="timer-form">
+                    <div class="timer">
+                        <div class="timer-top">
+                            До окончания акции осталось:
+                        </div>
+                        <div class="timer-body">
+                            <div class="timer-body-sector">
+                                <div class="timer-body-sector__item">
+                                    <span class="timer-body__day timer-body__count">3</span>
+                                </div>
+                                <div class="timer-body__day timer-body__word">дня</div>
                             </div>
-                            <div class="timer-body__day timer-body__word">дня</div>
-                        </div>
-                        <div class="timer-body-sector">
-                            <div class="timer-body-sector__item">
-                                <span class="timer-body__hour timer-body__count">0</span>
-                                <span class="timer-body__hour timer-body__count">2</span>
+                            <div class="timer-body-sector">
+                                <div class="timer-body-sector__item">
+                                    <span class="timer-body__hour timer-body__count">0</span>
+                                    <span class="timer-body__hour timer-body__count">2</span>
+                                </div>
+                                <div class="timer-body__hour timer-body__word">часа</div>
                             </div>
-                            <div class="timer-body__hour timer-body__word">часа</div>
-                        </div>
-                        <div class="timer-body-sector">
-                            <div class="timer-body-sector__item">
-                                <span class="timer-body__min timer-body__count">4</span>
-                                <span class="timer-body__min timer-body__count">2</span>
+                            <div class="timer-body-sector">
+                                <div class="timer-body-sector__item">
+                                    <span class="timer-body__min timer-body__count">4</span>
+                                    <span class="timer-body__min timer-body__count">2</span>
+                                </div>
+                                <div class="timer-body__min timer-body__word">минуты</div>
                             </div>
-                            <div class="timer-body__min timer-body__word">минуты</div>
-                        </div>
-                        <div class="timer-body-sector">
-                            <div class="timer-body-sector__item">
-                                <span class="timer-body__sec timer-body__count">3</span>
-                                <span class="timer-body__sec timer-body__count">7</span>
+                            <div class="timer-body-sector">
+                                <div class="timer-body-sector__item">
+                                    <span class="timer-body__sec timer-body__count">3</span>
+                                    <span class="timer-body__sec timer-body__count">7</span>
+                                </div>
+                                <div class="timer-body__sec timer-body__word">секунд</div>
                             </div>
-                            <div class="timer-body__sec timer-body__word">секунд</div>
+                        </div>
+                        <div class="timer-middle">
+                            Успейте отправить заявку до окончания акции и получите скидку в размере 10%
+                        </div>
+                        <div class="timer-bottom">
+                            С момента подачи заявки я вам отвечу в течении ближайшего времени и мы с вами обсудим детали заказа сайта.
                         </div>
                     </div>
-                    <div class="timer-middle">
-                        Успейте отправить заявку до окончания акции и получите скидку в размере 10%
+                    <div class="feedback-form feedback-form-1">
+                        <form id="feedback-form-1">
+                            <div class="feedback-form__item">
+                                <input class="" type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="feedback-form__item">
+                                <input type="tel" name="phone" placeholder="Ваш телефон">
+                            </div>
+                            <div class="feedback-form__item">
+                                <textarea name="msg" placeholder="Дополнительная информация"></textarea>
+                            </div>
+                            <div class="feedback-form__item">
+                                <input type="submit" value="Подать заявку">
+                            </div>
+                        </form>
                     </div>
-                    <div class="timer-bottom">
-                        С момента подачи заявки я вам отвечу в течении ближайшего времени и мы с вами обсудим детали заказа сайта.
-                    </div>
-                </div>
-                <div class="feedback-form feedback-form-1">
-                    <form id="feedback-form-1">
-                        <div class="feedback-form__item">
-                            <input class="" type="text" name="name" placeholder="Ваше имя">
-                        </div>
-                        <div class="feedback-form__item">
-                            <input type="tel" name="phone" placeholder="Ваш телефон">
-                        </div>
-                        <div class="feedback-form__item">
-                            <textarea name="msg" placeholder="Дополнительная информация"></textarea>
-                        </div>
-                        <div class="feedback-form__item">
-                            <input type="submit" value="Подать заявку">
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -888,25 +902,22 @@
     <script src="./assets/libs/wow/wow.min.js"></script>
 
     <script>
-        // start
+        // start slider-portfolio
         new Swiper('.slider-portfolio', {
             pagination: '.swiper-pagination',
             paginationClickable: true,
             effect: 'coverflow',
             loop: true,
-            // freeMode: true,
             centeredSlides: true,
             slidesPerView: 3,
             initialSlide: 2,
             lazyLoading: true,
             lazyLoadingInPrevNext: true,
             speed: 700,
-            // additionalSlide: 2,
             coverflowEffect: {
-                rotate: 0,
+                rotate: -10,
                 stretch: 0,
                 depth: 200,
-                // modifier: 3,
                 slideShadows: false,
             },
             navigation: {
@@ -915,7 +926,7 @@
             },
             grabCursor: true,
         });
-        // end
+        // end slider-portfolio
     </script>
 </body>
 
