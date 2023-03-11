@@ -429,4 +429,63 @@ header {
   max-width: 1680px;
   margin: 0 auto;
   background: rgba(55, 55, 55, 0.62);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 135px;
+  padding: 50px 100px;
+}
+
+.timer {
+  width: 835px;
+}
+
+.timer-top {
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 55px;
+  margin-bottom: 32px;
+}
+
+.timer-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+}
+
+.timer-body-sector__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.timer-body__count {
+  background: #686868;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 800;
+  font-size: 80px;
+}
+
+.timer-body__word {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.timer-middle {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 40px;
+  color: #54d900;
+  margin: 38px 0 50px;
+}
+
+.timer-bottom {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
 }
