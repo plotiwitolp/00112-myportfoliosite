@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/libs/animatecss/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
@@ -45,9 +46,11 @@
                         <ul>
                             <li><a href="#top">Главная</a></li>
                             <li><a href="#portfolio">Портфолио</a></li>
-                            <li><a href="#calc-quiz">Рассчитать стоимость сайта</a></li>
-                            <li><a href="#timer">Подать заявку</a></li>
-                            <li><a href="#">О себе</a></li>
+                            <!-- <li><a href="#calc-quiz">Рассчитать стоимость сайта</a></li> -->
+                            <!-- <li><a href="#timer">Подать заявку</a></li> -->
+                            <!-- <li><a href="#">О себе</a></li> -->
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="#technology">Технологии</a></li>
                             <li><a href="#contacts">Контакты</a></li>
                         </ul>
                     </nav>
@@ -64,8 +67,9 @@
                         Я - частный вебмастер.
                     </span>
                     <span class="top-banner__desc2">
-                        Создаю уникальные эффекные сайты под заказ.
+                        Создаю уникальные эффектные сайты.<br>
                     </span>
+                    <span class="top-banner__desc3">Реализую верстку по макетам, а также устанавливаю её на CMS WordPress.</span>
                 </div>
             </div>
             <div class="top-banner__img-bg parallax" data-offset="30">
@@ -237,7 +241,7 @@
     </div>
 
     <!-- Подать заявку -->
-    <div class="screen__item timer-block" id="timer">
+    <!-- <div class="screen__item timer-block" id="timer">
         <div class="h2-wrapper">
             <h2>Подать заявку</h2>
         </div>
@@ -303,10 +307,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Расчет стоимости сайта -->
-    <div class="screen__item calc-quiz-block" id="calc-quiz">
+    <!-- <div class="screen__item calc-quiz-block" id="calc-quiz">
         <div class="h2-wrapper">
             <h2>Расчет стоимости сайта</h2>
         </div>
@@ -318,7 +322,7 @@
                     </div>
                     <div class="calc-quiz-slider">
                         <div class="calc-quiz-slider-wrapper">
-                            <!-- ВОПРОС 1 -->
+                            
                             <div class="calc-quiz-slider__item">
                                 <div class="calc-quiz-slider__item-title">Тип сайта</div>
                                 <div class="calc-quiz-slider__item-body">
@@ -366,7 +370,7 @@
                                 </div>
                             </div>
 
-                            <!-- ВОПРОС 2 -->
+                            
                             <div class="calc-quiz-slider__item">
                                 <div class="calc-quiz-slider__item-title">Количество страниц</div>
                                 <div class="calc-quiz-slider__item-body">
@@ -381,7 +385,7 @@
                                 </div>
                             </div>
 
-                            <!-- ВОПРОС 3 -->
+                          
                             <div class="calc-quiz-slider__item">
                                 <div class="calc-quiz-slider__item-title">Сложность дизайна</div>
                                 <div class="calc-quiz-slider__item-body">
@@ -470,10 +474,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- 5 шагов при разработке сайта.  -->
-    <div class="screen__item steps-block" id="steps">
+    <!-- <div class="screen__item steps-block" id="steps">
         <div class="h2-wrapper">
             <h2>5 шагов при разработке сайта.</h2>
         </div>
@@ -491,7 +495,7 @@
                 </div>
 
                 <div class="steps-desc">
-                    <!-- Шаг 1 -->
+              
                     <div class="steps-desc__item">
                         <div class="steps-desc__item-title">
                             Шаг 1. Составление технического задания (ТЗ)
@@ -521,7 +525,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Преимущества частного вебмастера  -->
     <div class="screen__item advantages-block" id="advantages">
@@ -531,36 +535,36 @@
         <div class="container">
             <div class="advantages">
                 <div class="advantages__item">
-                    <span class="advantages__item-first">
+                    <div class="advantages__item-first">
                         Дешевле, чем у веб-студий и компаний
-                    </span>
-                    <span class="advantages__item-second">
+                    </div>
+                    <div class="advantages__item-second">
                         Описание почему
-                    </span>
+                    </div>
                 </div>
                 <div class="advantages__item">
-                    <span class="advantages__item-first">
+                    <div class="advantages__item-first">
                         Никто не перекладывает ответственность
-                    </span>
-                    <span class="advantages__item-second">
+                    </div>
+                    <div class="advantages__item-second">
                         Так как я работаю один, то не на кого перекладывать
-                    </span>
+                    </div>
                 </div>
                 <div class="advantages__item">
-                    <span class="advantages__item-first">
+                    <div class="advantages__item-first">
                         Гибкость и индивидуальный подход
-                    </span>
-                    <span class="advantages__item-second">
+                    </div>
+                    <div class="advantages__item-second">
                         Описание почему
-                    </span>
+                    </div>
                 </div>
                 <div class="advantages__item">
-                    <span class="advantages__item-first">
+                    <div class="advantages__item-first">
                         Вовлеченность в качество работы
-                    </span>
-                    <span class="advantages__item-second">
+                    </div>
+                    <div class="advantages__item-second">
                         Описание почему
-                    </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -573,58 +577,96 @@
         </div>
         <div class="container">
             <div class="reviews-slider">
-                <div class="reviews-slider__item">
-                    <div class="reviews-slider__item-bg" data-bg-img="./assets/images/отзыв с ссылкой.png">
-                        <div class="reviews-slider__item-body">
-                            <span class="reviews-slider__item-img">
-                                <img src="./assets/images/отзыв с ссылкой.png" alt="">
-                            </span>
-                            <span class="reviews-slider__item-link">
-                                Ссылка на источник
-                            </span>
+                <div class="reviews-slider-wrapper">
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item">
+                        <div class="reviews-slider__item-bg" data-bg-img="./assets/images/image1.png">
+                            <div class="reviews-slider__item-body">
+                                <span class="reviews-slider__item-img">
+                                    <img src="./assets/images/image1.png" alt="">
+                                </span>
+                                <span class="reviews-slider__item-link">
+                                    Ссылка на источник
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="reviews-slider__item">
-                    <div class="reviews-slider__item-bg" data-bg-img="./assets/images/отзыв с ссылкой.png">
-                        <div class="reviews-slider__item-body">
-                            <span class="reviews-slider__item-img">
-                                <img src="./assets/images/отзыв с ссылкой.png" alt="">
-                            </span>
-                            <span class="reviews-slider__item-link">
-                                Ссылка на источник
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews-slider__item">
-                    <div class="reviews-slider__item-bg" data-bg-img="./assets/images/отзыв с ссылкой.png">
-                        <div class="reviews-slider__item-body">
-                            <span class="reviews-slider__item-img">
-                                <img src="./assets/images/отзыв с ссылкой.png" alt="">
-                            </span>
-                            <span class="reviews-slider__item-link">
-                                Ссылка на источник
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews-slider__item">
-                    <div class="reviews-slider__item-bg" data-bg-img="./assets/images/отзыв с ссылкой.png">
-                        <div class="reviews-slider__item-body">
-                            <span class="reviews-slider__item-img">
-                                <img src="./assets/images/отзыв с ссылкой.png" alt="">
-                            </span>
-                            <span class="reviews-slider__item-link">
-                                Ссылка на источник
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="reviews-control">
-                <span class="reviews-control__prev"></span>
-                <span class="reviews-control__next"></span>
+                <!-- <div class="reviews-control">
+                    <span class="reviews-control__prev"></span>
+                    <span class="reviews-control__next"></span>
+                </div> -->
             </div>
         </div>
     </div>
@@ -638,48 +680,58 @@
             <div class="technology">
                 <div class="technology-slider">
                     <div class="technology-slider__item">
-                        <div class="technology-slider__item-front">
-                            <img src="./assets/images/html.png" alt="">
-                        </div>
-                        <div class="technology-slider__item-back">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
-                        </div>
-                    </div>
-                    <div class="technology-slider__item">
-                        <div class="technology-slider__item-front">
-                            <img src="./assets/images/css.png" alt="">
-                        </div>
-                        <div class="technology-slider__item-back">
-                            <p>
-                                CSS (Cascading Style Sheets) — язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам.
-                            </p>
-                            <p>
-                                Обычно CSS-стили используются для создания и изменения стиля элементов веб-страниц и пользовательских интерфейсов, написанных на языке HTML.
-                            </p>
+                        <div class="technology-slider__item-wrapper">
+                            <div class="technology-slider__item-front">
+                                <img src="./assets/images/html.png" alt="">
+                            </div>
+                            <div class="technology-slider__item-back">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                            </div>
                         </div>
                     </div>
                     <div class="technology-slider__item">
-                        <div class="technology-slider__item-front">
-                            <img src="./assets/images/js.png" alt="">
-                        </div>
-                        <div class="technology-slider__item-back">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                        <div class="technology-slider__item-wrapper">
+                            <div class="technology-slider__item-front">
+                                <img src="./assets/images/css.png" alt="">
+                            </div>
+                            <div class="technology-slider__item-back">
+                                <p>
+                                    CSS (Cascading Style Sheets) — язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам.
+                                </p>
+                                <p>
+                                    Обычно CSS-стили используются для создания и изменения стиля элементов веб-страниц и пользовательских интерфейсов, написанных на языке HTML.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="technology-slider__item">
-                        <div class="technology-slider__item-front">
-                            <img src="./assets/images/php.png" alt="">
-                        </div>
-                        <div class="technology-slider__item-back">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                        <div class="technology-slider__item-wrapper">
+                            <div class="technology-slider__item-front">
+                                <img src="./assets/images/js.png" alt="">
+                            </div>
+                            <div class="technology-slider__item-back">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                            </div>
                         </div>
                     </div>
                     <div class="technology-slider__item">
-                        <div class="technology-slider__item-front">
-                            <img src="./assets/images/wordpress.png" alt="">
+                        <div class="technology-slider__item-wrapper">
+                            <div class="technology-slider__item-front">
+                                <img src="./assets/images/php.png" alt="">
+                            </div>
+                            <div class="technology-slider__item-back">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                            </div>
                         </div>
-                        <div class="technology-slider__item-back">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                    </div>
+                    <div class="technology-slider__item">
+                        <div class="technology-slider__item-wrapper">
+                            <div class="technology-slider__item-front">
+                                <img src="./assets/images/wordpress.png" alt="">
+                            </div>
+                            <div class="technology-slider__item-back">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam optio sequi id itaque perspiciatis dolorum ut, ullam ipsam nostrum ipsum obcaecati animi quisquam numquam! Corrupti obcaecati vitae aperiam recusandae!
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -695,7 +747,7 @@
     </div>
 
     <!-- Часто Задаваемые Вопросы  -->
-    <div class="screen__item faq-block" id="faq">
+    <!-- <div class="screen__item faq-block" id="faq">
         <div class="h2-wrapper">
             <h2>Часто Задаваемые Вопросы</h2>
         </div>
@@ -786,7 +838,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Контакты  -->
     <div class="screen__item contacts-block" id="contacts">
@@ -795,81 +847,79 @@
         </div>
         <div class="container">
             <div class="container-wrapper">
-                <div class="contacts">
-                    <div class="contacts__title">
-                        Часы работы: 24/7
-                    </div>
-                    <div class="contacts-item-wrapper">
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
-                            </div>
-                            <div class="contacts__item-text">Телеграм</div>
+
+                <div class="contacts-feedback">
+                    <div class="contacts">
+                        <div class="contacts__title">
+                            Часы работы: 24/7
                         </div>
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
+                        <div class="contacts-item-wrapper">
+                            <div class="contacts__item">
+                                <div class="contacts__item-icon">
+                                    <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
+                                </div>
+                                <div class="contacts__item-text">Телеграм</div>
                             </div>
-                            <div class="contacts__item-text">Телеграм</div>
-                        </div>
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-whatsapp-4494494.svg" alt="">
+                            <div class="contacts__item">
+                                <div class="contacts__item-icon">
+                                    <img src="./assets/images/contacts/free-icon-whatsapp-4494494.svg" alt="">
+                                </div>
+                                <div class="contacts__item-text">WhatsApp</div>
                             </div>
-                            <div class="contacts__item-text">WhatsApp</div>
-                        </div>
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-mail-6541218.svg" alt="">
+                            <div class="contacts__item">
+                                <div class="contacts__item-icon">
+                                    <img src="./assets/images/contacts/free-icon-mail-6541218.svg" alt="">
+                                </div>
+                                <div class="contacts__item-text">ivan@ivanplotnikov.pro</div>
                             </div>
-                            <div class="contacts__item-text">ivan@ivanplotnikov.pro</div>
-                        </div>
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
+                            <div class="contacts__item">
+                                <div class="contacts__item-icon">
+                                    <img src="./assets/images/contacts/free-icon-telegram-3670070.svg" alt="">
+                                </div>
+                                <div class="contacts__item-text">+7 925 624 74 67</div>
                             </div>
-                            <div class="contacts__item-text">+7 925 624 74 67</div>
-                        </div>
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/kwork.svg" alt="">
+                            <div class="contacts__item">
+                                <div class="contacts__item-icon">
+                                    <img src="./assets/images/contacts/kwork.svg" alt="">
+                                </div>
+                                <div class="contacts__item-text">Kwork</div>
                             </div>
-                            <div class="contacts__item-text">Kwork</div>
-                        </div>
-                        <div class="contacts__item">
-                            <div class="contacts__item-icon">
-                                <img src="./assets/images/contacts/free-icon-github-536452.svg" alt="">
+                            <div class="contacts__item">
+                                <div class="contacts__item-icon">
+                                    <img src="./assets/images/contacts/free-icon-github-536452.svg" alt="">
+                                </div>
+                                <div class="contacts__item-text">Github</div>
                             </div>
-                            <div class="contacts__item-text">Github</div>
                         </div>
                     </div>
+                    <div class="feedback-form feedback-form-4">
+                        <form id="feedback-form-4">
+                            <div class="feedback-form__item">
+                                <span class="feedback-form__item-first">
+                                    Также можете написать мне через форму обратной связи:
+                                </span>
+                            </div>
+                            <div class="feedback-form__item">
+                                <input class="" type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="feedback-form__item">
+                                <input type="tel" name="phone" placeholder="Ваш телефон">
+                            </div>
+                            <div class="feedback-form__item">
+                                <textarea name="msg" placeholder="Сообщение (как с вами связаться можете указать и здесь)"></textarea>
+                            </div>
+                            <div class="feedback-form__item">
+                                <input type="submit" value="Отправить">
+                            </div>
+                            <div class="feedback-form__item">
+                                <span class="feedback-form__item-second">
+                                    Свяжусь с вами в ближайшее время.
+                                </span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="feedback-form feedback-form-4">
-                    <form id="feedback-form-4">
-                        <div class="feedback-form__item">
-                            <span class="feedback-form__item-first">
-                                Также можете написать мне через форму обратной связи:
-                            </span>
-                        </div>
-                        <div class="feedback-form__item">
-                            <input class="" type="text" name="name" placeholder="Ваше имя">
-                        </div>
-                        <div class="feedback-form__item">
-                            <input type="tel" name="phone" placeholder="Ваш телефон">
-                        </div>
-                        <div class="feedback-form__item">
-                            <textarea name="msg" placeholder="Сообщение (как с вами связаться можете указать и здесь)"></textarea>
-                        </div>
-                        <div class="feedback-form__item">
-                            <input type="submit" value="Отправить">
-                        </div>
-                        <div class="feedback-form__item">
-                            <span class="feedback-form__item-second">
-                                Свяжусь с вами в ближайшее рабочее время.
-                            </span>
-                        </div>
-                    </form>
-                </div>
+
             </div>
         </div>
         <!-- Footer -->
@@ -900,6 +950,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
     <script src="./assets/libs/wow/wow.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
         // start slider-portfolio
@@ -921,12 +972,28 @@
                 slideShadows: false,
             },
             navigation: {
-                nextEl: '.swiper-button-prev',
-                prevEl: '.swiper-button-next',
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
             grabCursor: true,
         });
         // end slider-portfolio
+
+        // start reviews
+        $('.reviews-slider-wrapper').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            prevArrow: '<span class="reviews-control__prev"></span>',
+            nextArrow: '<span class="reviews-control__next"></span>',
+        })
+        // end reviews
+
+        $('.technology-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            prevArrow: '<span class="reviews-control__prev"></span>',
+            nextArrow: '<span class="reviews-control__next"></span>',
+        })
     </script>
 </body>
 
