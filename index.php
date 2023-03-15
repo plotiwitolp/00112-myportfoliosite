@@ -229,8 +229,8 @@
                                 </div>
                             </div>
                             <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
                         </div>
                     </div>
                 </div>
@@ -604,10 +604,16 @@
                 depth: 200,
                 slideShadows: false,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
+            // pagination: {
+            // el: '.swiper-pagination',
+            // clickable: true,
+            // type: 'custom',
+            // bulletClass: 'swiper_pagination_dot'
+            // },
             grabCursor: true,
             breakpoints: {
                 0: {
@@ -627,8 +633,13 @@
         $('.reviews-slider-wrapper').slick({
             // slidesToShow: 4,
             slidesToScroll: 1,
-            prevArrow: '<span class="reviews-control__prev"></span>',
-            nextArrow: '<span class="reviews-control__next"></span>',
+            // prevArrow: '<span class="reviews-control__prev"></span>',
+            // nextArrow: '<span class="reviews-control__next"></span>',
+            arrows: false,
+            dots: true,
+            customPaging: function(slider, i) {
+                return '<div class="jc-dot"></div>';
+            },
             responsive: [{
                     breakpoint: 2000,
                     settings: {
@@ -660,8 +671,13 @@
         $('.technology-slider').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
-            prevArrow: '<span class="reviews-control__prev"></span>',
-            nextArrow: '<span class="reviews-control__next"></span>',
+            arrows: false,
+            dots: true,
+            customPaging: function(slider, i) {
+                return '<div class="jc-dot"></div>';
+            },
+            // prevArrow: '<span class="reviews-control__prev"></span>',
+            // nextArrow: '<span class="reviews-control__next"></span>',
             responsive: [{
                     breakpoint: 2000,
                     settings: {

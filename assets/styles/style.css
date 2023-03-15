@@ -329,8 +329,6 @@ header {
 
 .slider-portfolio__item {
   overflow: hidden;
-  -webkit-box-shadow: 0 0 30px #fff;
-          box-shadow: 0 0 30px #fff;
 }
 
 .slider-portfolio::after, .slider-portfolio::before {
@@ -367,7 +365,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 700px;
+  height: 470px;
   position: relative;
 }
 
@@ -724,7 +722,7 @@ header {
 }
 
 .technology-slider__item {
-  height: 550px !important;
+  height: 470px !important;
   position: relative;
   margin: 0 15px;
 }
@@ -882,4 +880,35 @@ span.feedback-form__item-second {
 #menu li.active {
   font-weight: 700;
   color: #54d900;
+}
+
+ul.slick-dots,
+.swiper-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.jc-dot,
+span.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #dddddd;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.slick-active .jc-dot,
+span.swiper-pagination-bullet-active {
+  background-color: #54d900;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: 2px;
 }

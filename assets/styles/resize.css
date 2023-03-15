@@ -208,18 +208,19 @@
     padding: 57px 30px 0;
   }
   .slider-portfolio {
-    max-width: 340px;
+    max-width: 410px;
+    margin-top: 80px;
   }
   .slider-portfolio__item-wrapper {
     height: 340px;
   }
   .portfolio__item-front {
-    top: calc(50% - 55px);
-    height: 110px;
+    top: calc(50% - 80px);
+    height: 130px;
   }
   .portfolio__item-bg-wrapper {
-    width: 245px;
-    height: 220px;
+    width: 300px;
+    height: 280px;
   }
   .container {
     margin-top: 10px;
