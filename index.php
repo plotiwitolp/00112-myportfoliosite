@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/fonts/Montserrat/stylesheet.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/resize.css">
     <link rel="stylesheet" href="./assets/libs/animatecss/animate.min.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
@@ -593,7 +594,6 @@
             effect: 'coverflow',
             loop: true,
             centeredSlides: true,
-            slidesPerView: 3,
             initialSlide: 2,
             lazyLoading: true,
             lazyLoadingInPrevNext: true,
@@ -609,15 +609,51 @@
                 prevEl: '.swiper-button-prev',
             },
             grabCursor: true,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                1300: {
+                    slidesPerView: 2,
+                },
+                1680: {
+                    slidesPerView: 3,
+                }
+            }
         });
         // end slider-portfolio
 
         // start reviews
         $('.reviews-slider-wrapper').slick({
-            slidesToShow: 4,
+            // slidesToShow: 4,
             slidesToScroll: 1,
             prevArrow: '<span class="reviews-control__prev"></span>',
             nextArrow: '<span class="reviews-control__next"></span>',
+            responsive: [{
+                    breakpoint: 2000,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 1670,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 1300,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 1100,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         })
         // end reviews
 
@@ -626,6 +662,31 @@
             slidesToScroll: 1,
             prevArrow: '<span class="reviews-control__prev"></span>',
             nextArrow: '<span class="reviews-control__next"></span>',
+            responsive: [{
+                    breakpoint: 2000,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 1670,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 1300,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 1100,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         })
 
         $(document).ready(function() {

@@ -36,6 +36,15 @@
     });
     // end paralax
 
+    // start top-menu
+    $('body').on('click', '.menu-burger', function () {
+      $('.regular-menu').toggleClass('regular-menu_active');
+    });
+    $('body').on('click', '#menu li', function () {
+      $('.regular-menu').toggleClass('regular-menu_active');
+    });
+    // end top-menu
+
     // END ALL
   });
 })(jQuery);
